@@ -23,7 +23,7 @@ namespace task_16
             int index = Array.BinarySearch(arr, number);
 
             if (index >= 0) Console.Write("Number is on {0} index.", index);
-            else Console.Write("Number wasn't found.");
+            else Console.Write("Number not found.");
 
         }
     }
